@@ -1,4 +1,4 @@
-VisualCloze: A Universal Image Generation Framework via Visual In-Context Learning
+[VisualCloze](https://github.com/lzyhha/VisualCloze): A Universal Image Generation Framework via Visual In-Context Learning
 
 # Tips
 Need sometimes to fix bug...
