@@ -1,0 +1,15 @@
+[project]
+name = "visualcloze"
+description = "VisualCloze: A Universal Image Generation Framework via Visual In-Context Learning,you can use it in ComfyUI"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torchdiffeq", "numpy", "diffusers", "fairscale", "accelerate", "transformers", "huggingface-hub", "tensorboard", "gradio", "click", "opencv-python", "scikit-image", "numba", "scipy", "tqdm", "einops", "sentencepiece"]
+
+[project.urls]
+Repository = "https://github.com/smthemex/ComfyUI_VisualCloze"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "smthemex"
+DisplayName = "ComfyUI_VisualCloze"
+Icon = ""

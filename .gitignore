@@ -1,0 +1,14 @@
+batch*
+phoe*
+*gt*
+*__pycache__*
+*ocr*
+*.pyc
+*.pyo
+*.pyd
+*.txt
+*.json
+.gradio
+output
+gradio_cache
+__pycache__
