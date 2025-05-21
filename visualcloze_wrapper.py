@@ -296,7 +296,7 @@ class VisualClozeModel:
                 # when the image is masked, then output it
                 if mask_position[i - row_start] and is_upsampling:
                     cropped = output_images[-1].crop(((i - row_start) * ret_w // grid_w, 0, ((i - row_start) + 1) * ret_w // grid_w, ret_h))
-                    cropped.save(f"cropped{i}.png")
+                    #cropped.save(f"cropped{i}.png")
                     # content clip
                     for c in content_instruction:
                         if content_prompt.startswith(c):
@@ -316,7 +316,7 @@ class VisualClozeModel:
                     ret.append(upsampled)
                 elif mask_position[i - row_start]:
                     cropped = output_images[-1].crop(((i - row_start) * ret_w // grid_w, 0, ((i - row_start) + 1) * ret_w // grid_w, ret_h))
-                    cropped.save(f"mask_cropped{i}.png")
+                    #cropped.save(f"mask_cropped{i}.png")
                     ret.append(cropped)
             
             return ret
